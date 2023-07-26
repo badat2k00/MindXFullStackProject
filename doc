@@ -1,0 +1,39 @@
+- BE (Thư mục gốc Backend)
+    |
+    ├── Admin
+    |   ├── Controllers
+    |   |   ├── AdminProductController
+    |   |   ├── AdminCategoryController
+    |   |   ├── AdminOrderController
+    |   |   └── AdminUserController
+    |   |
+    |   ├── Models
+    |   |   ├── AdminProductModel
+    |   |   ├── AdminCategoryModel
+    |   |   ├── AdminOrderModel
+    |   |   └── AdminUserModel
+    |   |
+    |   └── Services
+    |       ├── AdminProductService
+    |       ├── AdminCategoryService
+    |       ├── AdminOrderService
+    |       └── AdminUserService
+    |
+    └── User
+        ├── Controllers
+        |   ├── ProductController
+        |   ├── CategoryController
+        |   ├── OrderController
+        |   └── UserController
+        |
+        ├── Models
+        |   ├── ProductModel
+        |   ├── CategoryModel
+        |   ├── OrderModel
+        |   └── UserModel
+        |
+        └── Services
+            ├── ProductService
+            ├── CategoryService
+            ├── OrderService
+            └── UserService
